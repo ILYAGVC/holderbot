@@ -34,7 +34,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            erfjab/holderbot:pr-${{ github.event.pull_request.number }}
+            ILYAGVC/holderbot:pr-${{ github.event.pull_request.number }}
 
       - name: Print Success Message
         if: success()
